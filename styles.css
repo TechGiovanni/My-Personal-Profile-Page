@@ -102,7 +102,8 @@ header .profile-image:hover {
 	padding: 3.2rem;
 	text-transform: uppercase;
 	block-size: inline-block;
-	font-size: 2.5rem;
+	font-size: 3.8rem;
+	color: white;
 }
 
 .tag {
