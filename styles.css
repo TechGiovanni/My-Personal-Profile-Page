@@ -55,14 +55,35 @@ a:hover {
 	color: white;
 }
 
-header {
+header,
+.home-page {
 	text-align: center;
 	background: url('images/background-img.jpg') no-repeat top center;
 	background-size: cover;
 	overflow: hidden;
 	padding-top: 60px;
 }
-header {
+header,
+.header-hobbies {
+	text-align: center;
+	background: url('images/coding-img.jpg') no-repeat top center;
+	background-size: cover;
+	overflow: hidden;
+	padding-top: 60px;
+}
+header,
+.header-ex {
+	text-align: center;
+	background: url('images/coding-img.jpg') no-repeat top center;
+	background-size: cover;
+	overflow: hidden;
+	padding-top: 60px;
+}
+
+header,
+.home-page,
+.header-hobbies,
+.header-hobbies {
 	line-height: 1.5;
 }
 header .profile-image {
@@ -76,6 +97,14 @@ header .profile-image {
 header .profile-image:hover {
 	transform: scale(1.2) rotate(5deg);
 }
+
+.ex-title {
+	padding: 3.2rem;
+	text-transform: uppercase;
+	block-size: inline-block;
+	font-size: 2.5rem;
+}
+
 .tag {
 	background-color: #efefef;
 	color: black;
@@ -175,7 +204,10 @@ a.social:hover {
 		margin: 0 auto;
 	}
 
-	header {
+	header,
+	.home-page,
+	.header-hobbies,
+	.header-hobbies {
 		min-height: 470px;
 	}
 
