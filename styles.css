@@ -104,7 +104,7 @@ header .profile-image:hover {
 .ex-title {
 	padding: 3.2rem;
 	text-transform: uppercase;
-	block-size: inline-block;
+
 	font-size: 3.8rem;
 	color: white;
 }
@@ -200,10 +200,10 @@ a.social:hover {
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
 	.flex {
-		display: -ms-flexbox; /* TWEENER - IE 10 */
+		/* TWEENER - IE 10 */
 		display: flex;
 		max-width: 1200px;
-		-ms-flex-pack: distribute;
+
 		justify-content: space-around;
 		margin: 0 auto;
 	}
