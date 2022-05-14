@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.nav {
+.nav-bar {
 	width: 100%;
 	background: black;
 	min-height: 30px;
@@ -121,7 +121,7 @@ header .profile-image:hover {
 	background-color: #222;
 	color: yellow;
 }
-.article {
+.article-box {
 	margin: 30px;
 	padding: 20px 40px 40px;
 	max-width: 500px;
@@ -131,7 +131,7 @@ header .profile-image:hover {
 	border-radius: 6px;
 	transition: all .5s;
 }
-.article:hover {
+.article-box:hover {
 	border-color: #ff99ff;
 }
 
